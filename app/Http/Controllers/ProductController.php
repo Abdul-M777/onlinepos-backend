@@ -28,6 +28,11 @@ class ProductController extends Controller
         ]);
 
         $product = Product::create($request->all());
+
+        // Set the sort_order to the product ID
+        $product->sort_order = $product->id;
+        $product->save();
+
         return response()->json($product, 201);
     }
 
