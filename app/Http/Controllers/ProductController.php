@@ -59,8 +59,8 @@ class ProductController extends Controller
 
     public function updateSortOrder(Request $request)
     {
-        foreach ($request->products as $product) {
-            Product::where('id', $product['id'])->update(['sort_order' => $product['sort_order']]);
+        foreach ($request->products as $index => $product) {
+            Product::where('id', $product['id'])->update(['sort_order' => $index]);
         }
         return response()->json(['message' => 'Sort order updated']);
     }
