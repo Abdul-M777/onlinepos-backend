@@ -2,6 +2,8 @@
 
 This is the backend API for the Vue.js onlinePos, built with Laravel. It provides endpoints for managing restaurant takeaway products.
 
+[Check the live version here](https://abdulmuaz.com/)
+
 ## Prerequisites
 
 Ensure you have the following installed:
