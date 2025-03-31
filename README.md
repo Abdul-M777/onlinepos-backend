@@ -11,8 +11,8 @@ Ensure you have the following installed:
 - [PHP](https://www.php.net/) (8.0+ recommended)
 - [Composer](https://getcomposer.org/)
 - [MySQL](https://www.mysql.com/) or another database
-- [Laravel](https://laravel.com/) (if needed)
-- [Node.js](https://nodejs.org/) (for frontend assets, if applicable)
+- [Laravel](https://laravel.com/)
+- [Node.js](https://nodejs.org/)
 
 ## Installation
 
@@ -44,9 +44,9 @@ Ensure you have the following installed:
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=your_database
-   DB_USERNAME=your_username
-   DB_PASSWORD=your_password
+   DB_DATABASE=onlinepos
+   DB_USERNAME=root
+   DB_PASSWORD=
    ```
 
 6. Run database migrations:
